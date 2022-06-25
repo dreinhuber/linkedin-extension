@@ -1,3 +1,6 @@
+### current status: two main components are there
+### I'm getting errors when trying to run getExperienceInJobListing on a list of ids
+
 ## LinkedIn Experience Checker:
 
 1. get a list of job id's once search results load in a linkedin search
