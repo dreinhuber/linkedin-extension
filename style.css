@@ -1,0 +1,23 @@
+body {
+    height: 10em;
+    width: 15em;
+}
+button {
+    background-color: rgb(23, 9, 153);
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+    font-size: 3em;
+    height: 100%;
+    width: 100%;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(34, 25, 117);
+}
+
+button:active {
+    background-color: rgb(54, 106, 148);
+}

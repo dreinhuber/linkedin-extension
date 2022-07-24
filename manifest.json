@@ -1,0 +1,13 @@
+{
+    "name": "LinkedIn Job Experience Checker",
+    "description": "A simple extension that scrapes linkedin job listings for required experience.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "gui.html"
+    },
+    "permissions": ["storage", "scripting", "tabs"]
+}

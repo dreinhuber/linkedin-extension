@@ -14,10 +14,11 @@
 ```js
 results = [
     {
-        id: job_id,
-        expMentioned: Bool,
-        nums: [int] // any numbers before years, yrs, etc.
-        level: "Junior" | "Mid" | "Senior" // depending on average of nums
+        id: Number,
+        expMentioned: Boolean,
+        approxExpRequired: Number,
+        success: Boolean,
+        status: String,
     },
     ...
 ]
@@ -29,7 +30,8 @@ scan the inner text for the following:
 
 ### MVP:
 ```
-0-9, +, years, yrs contained in text changes color of listing card in job list view
+finds mentions of 0-9, +, years, yrs contained in text
+and stores the listings somewhere
 ```
 ### Stretch:
 ```
